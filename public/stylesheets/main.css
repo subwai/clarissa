@@ -1,0 +1,109 @@
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.slide {
+  position: relative;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+#header {
+  height: 70px;
+  background: #FF4A8D;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+#header h2 {
+  margin: 0px;
+  line-height: 70px;
+}
+
+#imageheader {
+  height: 400px;
+}
+
+#imageheader:before {
+  background-image: url("images/Indian-Wells-Golf-Resort_0.jpg");
+  background-position-y: -13vw;
+  background-repeat: no-repeat;
+  transform: translateZ(-1px) translateY(-5vh) scale(2);
+  z-index: -1;
+}
+
+#main {
+  background-color: #fff;
+  background-attachment: fixed;
+  margin-top: -57px;
+  box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,.8);
+}
+
+#main-wrapper {
+  min-height: 1000px;
+  border: 1px solid #ccc;
+  border-top-width: 0px;
+  background: #FFF3F3;
+  box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,.8);
+}
+
+#content {
+  padding: 15px;
+  position: relative;
+}
+
+
+#profile-pic {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  overflow: hidden;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.8);
+}
+
+#profile-pic img {
+  width: 200px;
+}
+
+article {
+  font-weight: 300;
+}
+
+article header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}

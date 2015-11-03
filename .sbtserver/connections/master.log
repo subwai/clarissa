@@ -1,0 +1,19 @@
+New log file opened at Mon Nov 02 22:24:16 PST 2015 by 13047@subwai.smrted.com
+Taking next connection to: 51530
+New client attempting to connect on port: 51531-51530
+  Address = /10.0.0.167:51530
+This client on port 51531 has uuid 3cc250b1-d01b-4eda-9b2e-054e971ec3fe configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-3cc250b1-d01b-4eda-9b2e-054e971ec3fe
+Taking next connection to: 51530
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51530
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51530
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51530
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51530
