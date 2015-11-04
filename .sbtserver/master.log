@@ -15501,3 +15501,93 @@ Copy resource mappings:
 Total time: 2 s, completed Nov 4, 2015 3:08:52 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/projects/clarissa/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@633e2fdb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Sass compiling on 1 source(s)
+Sass compiling on 1 source(s)
+Copy resource mappings: 
+	(/projects/clarissa/conf/application.conf,/projects/clarissa/target/scala-2.11/classes/application.conf)
+	(/projects/clarissa/conf/logback.xml,/projects/clarissa/target/scala-2.11/classes/logback.xml)
+	(/projects/clarissa/conf/routes,/projects/clarissa/target/scala-2.11/classes/routes)
+Read from stdout: Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Total time: 5 s, completed Nov 4, 2015 4:37:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/projects/clarissa/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2eab7cba, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Sass compiling on 1 source(s)
+Sass compiling on 1 source(s)
+Copy resource mappings: 
+	(/projects/clarissa/conf/application.conf,/projects/clarissa/target/scala-2.11/classes/application.conf)
+	(/projects/clarissa/conf/logback.xml,/projects/clarissa/target/scala-2.11/classes/logback.xml)
+	(/projects/clarissa/conf/routes,/projects/clarissa/target/scala-2.11/classes/routes)
+Read from stdout: Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Total time: 4 s, completed Nov 4, 2015 4:41:27 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/projects/clarissa/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@d20ce94, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Sass compiling on 1 source(s)
+Sass compiling on 1 source(s)
+Copy resource mappings: 
+	(/projects/clarissa/conf/application.conf,/projects/clarissa/target/scala-2.11/classes/application.conf)
+	(/projects/clarissa/conf/logback.xml,/projects/clarissa/target/scala-2.11/classes/logback.xml)
+	(/projects/clarissa/conf/routes,/projects/clarissa/target/scala-2.11/classes/routes)
+Read from stdout: Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Sass compilation results: /projects/clarissa/target/web/sass/main/stylesheets/main.css, /projects/clarissa/target/web/sass/main/stylesheets/main.min.css
+Total time: 3 s, completed Nov 4, 2015 4:46:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request

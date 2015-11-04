@@ -6,9 +6,9 @@
 .parallax {
   perspective: 300px;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
-  -webkit-perspective-origin-x: calc(50% - 7.5px);
+  -webkit-perspective-origin-x: 100%;
   -webkit-perspective-origin-y: top;
 
   &.debug .parallax__group {
@@ -16,12 +16,7 @@
   }
 
   .parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    -webkit-perspective-origin-x: calc(100% - 15px);
+    -webkit-perspective-origin-x: 100%;
   }
 
   .parallax__layer--base {
@@ -70,24 +65,32 @@
 
 #header-image {
   z-index: 3;
-  height: 350px;
+  height: 400px;
 
   .parallax__layer--base {
     background: transparent;
+    height: 400px;
   }
 
   .parallax__layer--back {
     transform: translateZ(-300px) scale(2);
     background-image: url("/assets/images/Indian-Wells-Golf-Resort_0.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position-y: 15%;
+    background-origin: border-box;
     background-repeat: no-repeat;
-    height: 513px;
+    height: 504px;
+    margin-left: -8px;
+    -webkit-transform-origin-x: right;
+    background-clip: border-box;
+    -webkit-transform-origin-y: center;
+    margin-top: -20%;
   }
 }
 
 #content {
   z-index: 4;
+  margin-top: -15px;
 
   .parallax__layer--base {
     background: #fefefe;
