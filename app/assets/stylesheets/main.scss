@@ -8,7 +8,7 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-perspective-origin-x: 100%;
+  -webkit-perspective-origin-x: calc(50% - 7.5px);
   -webkit-perspective-origin-y: top;
 
   &.debug .parallax__group {
@@ -21,7 +21,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    -webkit-transform-origin-x: 100%;
+    -webkit-perspective-origin-x: calc(100% - 15px);
   }
 
   .parallax__layer--base {
@@ -57,7 +57,9 @@
   font-family: 'Cedarville Cursive', cursive;
 
   .parallax__layer--base {
-    background: rgba(255, 0, 209, 1);
+    background: #ff00d1;
+    box-shadow: 0 0 15px rgba(0,0,0,.8);
+    background: linear-gradient(135deg, #bf00b8 0%,#ff00d1 40%,#bf00b8 100%);
   }
 
   h2 {
@@ -88,11 +90,11 @@
   z-index: 4;
 
   .parallax__layer--base {
-    background: #fff;
-    min-height: 1000px;
+    background: #fefefe;
+    box-shadow: 0 0 15px rgba(0,0,0,.8);
 
     .container {
-      padding: 15px;
+      min-height: 1000px;
     }
   }
 
@@ -111,121 +113,22 @@
 
   article {
     font-weight: 300;
+    background: rgba(255, 0, 209, 0.05);
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    min-height: 150px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(191, 0, 184, 0.10) 0%,rgba(255, 0, 209, 0.10) 40%,rgba(191, 0, 184, 0.10) 100%);
+
+    header {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #333;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .post-content {
+      padding: 15px 0px;
+    }
   }
-
-  article header {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #333;
-    border-bottom: 1px solid #ccc;
-  }
 }
-
-/*
-html {
-  height: 100%;
-  overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
-}
-
-body {
-  margin:0;
-  padding:0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.slide {
-  position: relative;
-  width: 100vw;
-  box-sizing: border-box;
-  transform-style: inherit;
-}
-
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right:0;
-}
-.slide, .slide:before {
-  background: 50% 50% / cover;
-}
-
-.container {
-  width: 1000px;
-  margin: 0px auto;
-}
-
-#header {
-  height: 70px;
-  background: #FF4A8D;
-  font-family: 'Cedarville Cursive', cursive;
-}
-
-#header h2 {
-  margin: 0px;
-  line-height: 70px;
-}
-
-#imageheader {
-  height: 400px;
-}
-
-#imageheader:before {
-  background-image: url("images/Indian-Wells-Golf-Resort_0.jpg");
-  background-position-y: -13vw;
-  background-repeat: no-repeat;
-  transform: translateZ(-1px) translateY(-5vh) scale(2);
-  z-index: -1;
-}
-
-#main {
-  background-color: #fff;
-  background-attachment: fixed;
-  margin-top: -57px;
-  box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,.8);
-}
-
-#main-wrapper {
-  min-height: 1000px;
-  border: 1px solid #ccc;
-  border-top-width: 0px;
-  background: #FFF3F3;
-  box-shadow: inset 0px 20px 20px -20px rgba(0,0,0,.8);
-}
-
-#content {
-  padding: 15px;
-  position: relative;
-}
-
-
-#profile-pic {
-  position: absolute;
-  right: -100px;
-  top: -100px;
-  overflow: hidden;
-  border-radius: 100px;
-  box-shadow: 0px 0px 20px rgba(0,0,0,.8);
-}
-
-#profile-pic img {
-  width: 200px;
-}
-
-article {
-  font-weight: 300;
-}
-
-article header {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  color: #333;
-  border-bottom: 1px solid #ccc;
-}*/
